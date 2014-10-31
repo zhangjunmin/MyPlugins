@@ -25,7 +25,6 @@
 				(function(span,input){
 					var $input = $(input);
 					$input.before(span);
-					$input.parent().css('position','relative');
 					span.innerText = $input.attr('placeholder');
 
 					$(span).css({
